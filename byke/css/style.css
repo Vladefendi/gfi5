@@ -31,14 +31,14 @@ body{
 	background: #4eabda;
 	color: #fefefe;
 }
-.menu li:last-child a{
+.menu li:last-child{
 	text-transform: none;
 	margin-right: 20px;
 	color: #fefefe;
 	font-weight: 700;
 }
 
-.menu li:nth-child(6) a{
+.menu li:nth-child(6){
 	color: #fefefe;
 	font-weight: 700;
 }
@@ -70,7 +70,7 @@ body{
 }
 .menu img{
 	position: absolute;
-	padding-top: 5px;
+	top: 0;
 	left: 6px;
 }
 

@@ -8,7 +8,7 @@ body{
 }
 .wrapper{
 	margin: 0 auto;
-	width: 500px;
+	width: 450px;
 }
 table{	
 	margin-top: 15%;
@@ -34,30 +34,42 @@ table td{
 table tr:first-child td{
 	border-top:0;
 }
-table tr:nth-child(2){
-	height: 120px;
-}
-table tr:nth-child(3){
+.tr1{
 	height: 120px;
 }
 .td1{
 	background-color: yellow;
+	width: 100px;
+}
+.td1-2{
+	width: 50px;
+}
+.td1-1{
+	width: 75px;
 }
 .td2{
 	background-color: red;
 }
 .td3{
 	background-color: yellow;
+	width: 100px;
 }
 .td4{
 	background-color: black;
+	width: 200px;
 }
 .td5{
 	background-color: yellow;
+	width: 50px;
 }
 .td6{
 	background-color: black;
+	width: 100px;
+	height: 35px;
 }
 .td7{
 	background-color: blue;
+}
+.td8{
+	height: 35px;
 }
