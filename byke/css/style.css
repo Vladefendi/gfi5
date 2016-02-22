@@ -1,4 +1,11 @@
-﻿*{
+﻿@font-face {
+	font-family: 'Conv_Tahoma-Regular';
+	src: url('../font/Tahoma-Regular.eot');
+	src: local('☺'), url('../font/Tahoma-Regular.woff') format('woff'), url('../font/Tahoma-Regular.ttf') format('truetype'), url('../font/Tahoma-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: Tahoma;
+}
+*{
 	margin-top: 0;
 	padding: 0;
 }
